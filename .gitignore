@@ -1,0 +1,14 @@
+# Private keys - NEVER commit these!
+keys/*.pem
+keys/
+
+# Encrypted/decrypted messages (optional - remove if you want to demo)
+messages/encrypted.bin
+messages/decrypted.txt
+
+# Web demo
+web-demo/node_modules/
+web-demo/.next/
+
+# macOS
+.DS_Store
