@@ -22,8 +22,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v4
         with:
-          context: .
-          file: ./Dockerfile
+          context: web-demo
+          file: ./web-demo/Dockerfile
           push: true
           tags: sujiththirumalaisamy/e2e-messaging:${{ github.sha }}
 
