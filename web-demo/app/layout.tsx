@@ -16,6 +16,12 @@ export const metadata: Metadata = {
   title: "E2E Encryption Demo",
   description:
     "Interactive demo showing how end-to-end encryption works with public/private key pairs",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
